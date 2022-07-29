@@ -30,5 +30,6 @@ document.getElementById("p1").innerHTML="Merhaba Dünya";
         var btnYaz= document.getElementById("btn");
         btnYaz.onclick=function(){
         var sedat = document.getElementById("txtAd").value;
+         alert("Merhaba "+sedat );
         }
-        alert(`"Merhaba "+ sedat`);
+       
